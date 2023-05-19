@@ -2,7 +2,7 @@ import cv2
 import os
 import numpy as np
 detector=cv2.CascadeClassifier(cv2.data.haarcascades+'haarcascade_frontalface_default.xml')
-id=1
+id=1 #id == 1 for using available dataset (images), id == 1 for using own laptop/PC camera
 if id == 1:
     print(0)
     for i in range(1,6):
